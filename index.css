@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin-left: 15px;
+}
+li {
+  margin-left: 15px;
+}
+header {
+  text-align: center;
+  margin: 3vh 0;
+  font-size: 4vh;
+  font-weight: bold;
+}
+#container {
+  /* border: 2px solid black; */
+  box-sizing: border-box;
+  margin: 0 5vw;
+  padding: 2vw;
+}
+#container2 {
+  box-sizing: border-box;
+  margin: 5vh 5vw;
+  padding: 2vw;
+
+  border-left: 5px solid lightgrey;
+  background-color: whitesmoke;
+}
+button {
+  margin: 2vh 0;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+}
+#submit {
+  background-color: green;
+}
+input {
+  margin: 0.5vh 0;
+  width: 80vw;
+  border: 1px solid lightgrey;
+  padding: 2px;
+}
+#projecttitle {
+  width: 33%;
+}
+
+.q {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+  margin: 0 0;
+  width: 80vw;
+  padding: 5px;
+}
+#qualifications {
+  margin: 3vh 0;
+}

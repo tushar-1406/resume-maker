@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>User Details</header>
+        <br />
+
+        <label for="inputname">Name:</label>
+        <br />
+        <input type="text" id="inputname" placeholder="enter your name" required />
+        <br />
+        <label for="email">E-mail</label>
+        <br />
+        <input type="email" id="inputemail" placeholder="enter your e-mail" required />
+        <br />
+        <label for="phone">Phone:</label>
+        <br />
+        <input type="number" id="phonenumber" placeholder="enter your number" required />
+        <br />
+        <label for="qualification">Qualication:</label>
+        <br />
+        <div id="qualifications"></div>
+        <div id="quali-info">
+            <input type="text" id="degree" placeholder="enter your degree level" />
+            <br />
+            <input type="text" id="stream" placeholder="enter the stream" />
+            <br />
+            <input type="number" id="startyear" placeholder="enter beginning year" />
+            <br />
+            <input type="number" id="endyear" placeholder="enter graduation year" />
+            <br />
+        </div>
+        <button id="qualification">Add Entry</button>
+        <button id="savequal" style="display: none">Save</button>
+        <br />
+        <label for="projects">Projects:</label>
+        <br />
+        <div id="projects"></div>
+
+        <div id="projectinfo">
+            <input type="text" id="projecttitle" placeholder="title" />
+            <textarea name="description" id="description" cols="42" rows="4" placeholder="description"></textarea>
+            <textarea name="skills" id="skills" cols="42" rows="4" placeholder="skill"></textarea>
+        </div>
+
+        <button id="project">Add Entry</button>
+        <button id="saveproject" style="display: none">Save</button>
+        <br />
+        <button id="submit">Submit</button>
+    </div>
+
+    <div id="container2" style="display: none">
+        <h2>Hi, I'm</h2>
+
+        <br />
+        <h1 id="resumename"></h1>
+        <br />
+
+        <h3>Project(s):</h3>
+        <br />
+
+        <ul id="resumeprojects"></ul>
+        <br />
+
+        <h2>Qualification's:</h2>
+        <br />
+
+        <ul id="resumequals"></ul>
+        <br />
+
+        <h2>Contact:</h2>
+        <br />
+
+        <a href="#">
+            <h5 id="resumeemail"></h5>
+        </a>
+        <br />
+
+        <h3>Phone: <span id="resumecontact"></span></h3>
+        <br />
+    </div> 
+
+    <script src="index.js"></script>
+   
+</body>
+
+</html>
